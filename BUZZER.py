@@ -6,10 +6,10 @@ GPIO.setup(25,GPIO.IN)
 GPIO.setup(25,GPIO.OUT)
 
 def buzz():
-    pitch=1000
-    duration=0.1
-    period=1.0/pitch
-    delay=period/2
+    pitch=1000                  #주파수
+    duration=0.1                #울리는 시간
+    period=1.0/pitch            #소리의 진동을 만들어 내기 위한 간격
+    delay=period/2              #간격의 절반을 delay로 설정
     cycles=int(duration*pitch)
     
     for i in range(cycles):
