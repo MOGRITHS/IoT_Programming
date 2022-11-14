@@ -73,5 +73,7 @@ root.mainloop()
         variable: Scale의 상태를 저장할 변수 (tkinter.Intvar())
         label: 슬라이더에 표시할 텍스트
         showvalue=True(False): 슬라이더의 현재 값 표시 여부
-        
+
+    4. 정수를 다루는 Tkinter의 Variable 인스턴스
+        num=tkinter.IntVar() 
 '''
