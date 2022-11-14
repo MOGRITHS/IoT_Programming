@@ -4,7 +4,7 @@ import time
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(16,GPIO.OUT)
 red_led=GPIO.PWM(16,500)
-red_led.start()
+red_led.start(0)
 
 try:
     while True:
